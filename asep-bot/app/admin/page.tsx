@@ -1,0 +1,8 @@
+import AdminClient from "./admin-client";
+
+export const dynamic = "force-dynamic";
+export const metadata = { robots: { index: false, follow: false } };
+
+export default function AdminPage() {
+  return <AdminClient />;
+}
